@@ -1,215 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="theme-color" content="#0b0b0f">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RML Infosolutions - Digital Marketing Agency</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RML Infosolutions - Digital Marketing Agency</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+/* GLOBAL */
+body {
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#0b0b0f;
+    color:#fff;
+}
+
+/* NAV */
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 10%;
+    background:#0f0f1a;
+}
+
+.logo {
+    font-weight:700;
+    color:#c084fc;
+}
+
+.nav-links a {
+    margin:0 10px;
+    color:#ccc;
+}
+
+.phone-btn a {
+    background:#7c3aed;
+    padding:8px 15px;
+    border-radius:6px;
+    color:#fff;
+}
+
+/* HERO */
+.hero {
+    text-align:center;
+    padding:80px 10%;
+    background:radial-gradient(circle,#1a0033,#000);
+}
+
+.hero h1 {
+    font-size:42px;
+}
+
+.hero p {
+    color:#aaa;
+}
+
+.btn {
+    display:inline-block;
+    padding:12px 25px;
+    border-radius:8px;
+    margin:10px;
+    font-weight:600;
+}
+
+.btn-primary {
+    background:linear-gradient(45deg,#7c3aed,#c084fc);
+}
+
+.btn-secondary {
+    border:1px solid #7c3aed;
+    color:#c084fc;
+}
+
+/* TRUST BAR */
+.trust {
+    text-align:center;
+    padding:10px;
+    background:#140020;
+    color:#c084fc;
+}
+
+/* SERVICES */
+.services {
+    padding:60px 10%;
+    text-align:center;
+}
+
+.card {
+    background:rgba(255,255,255,0.05);
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    display:inline-block;
+    width:250px;
+}
+
+/* CTA */
+.cta {
+    background:linear-gradient(45deg,#1a0033,#7c3aed);
+    text-align:center;
+    padding:60px;
+}
+
+.cta a {
+    background:#fff;
+    color:#7c3aed;
+    padding:12px 20px;
+    border-radius:8px;
+}
+
+/* FOOTER */
+.footer {
+    padding:40px 10%;
+    background:#050508;
+    text-align:center;
+    color:#aaa;
+}
+
+/* STICKY CALL */
+.sticky-call {
+    position:fixed;
+    bottom:15px;
+    left:10px;
+    right:10px;
+    background:#7c3aed;
+    text-align:center;
+    padding:12px;
+    border-radius:8px;
+}
+
+.sticky-call a {
+    color:#fff;
+    font-weight:bold;
+}
+
+@media(min-width:768px){
+    .sticky-call{display:none;}
+}
+
+</style>
 </head>
+
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <i class="fas fa-rocket"></i>
-                <span>RML Infosolutions</span>
-            </div>
-            <div class="nav-menu" id="navMenu">
-                <a href="index.html" class="nav-link active">Home</a>
-                <a href="services.html" class="nav-link">Services</a>
-                <a href="institute.html" class="nav-link">Institute</a>
-                <a href="about.html" class="nav-link">About Us</a>
-                <a href="contact.html" class="nav-link">Contact</a>
-            </div>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="phone-btn">
-                <a href="tel:+918840960525"><i class="fas fa-phone"></i> +91 (884) 096-0525</a>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">
-                Digital Marketing Solutions for Your Business
-            </h1>
-            <p class="hero-subtitle">
-                Unlock Your Business Potential with Expert Digital Marketing Services
-            </p>
-            <div class="hero-buttons">
-                <a href="contact.html" class="btn btn-primary">Get Started</a>
-                <a href="services.html" class="btn btn-secondary">Learn More</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Digital Marketing">
-        </div>
-    </section>
+<!-- NAV -->
+<div class="navbar">
+    <div class="logo">🚀 RML Infosolutions</div>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="institute.html">Institute</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="phone-btn">
+        <a href="tel:+918840960525">Call Now</a>
+    </div>
+</div>
 
-    <!-- Statistics Section -->
-    <section class="stats">
-        <div class="stats-container">
-            <div class="stat-item">
-                <h3>500+</h3>
-                <p>Successful Projects</p>
-            </div>
-            <div class="stat-item">
-                <h3>300+</h3>
-                <p>Happy Clients</p>
-            </div>
-            <div class="stat-item">
-                <h3>87%</h3>
-                <p>Client Satisfaction</p>
-            </div>
-            <div class="stat-item">
-                <h3>10+</h3>
-                <p>Years Experience</p>
-            </div>
-        </div>
-    </section>
+<!-- TRUST -->
+<div class="trust">
+✔ 300+ Clients | ✔ 10+ Years Experience | ✔ Proven Results
+</div>
 
-    <!-- Services Preview Section -->
-    <section class="services-preview">
-        <div class="section-header">
-            <h2>Our Services</h2>
-            <p>Comprehensive Digital Marketing Solutions</p>
-        </div>
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon">
-                    <i class="fas fa-globe"></i>
-                </div>
-                <h3>Lead Generation</h3>
-                <p>Generate high-quality leads for your business with our proven strategies</p>
-                <a href="services.html" class="service-link">Learn More →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">
-                    <i class="fab fa-google"></i>
-                </div>
-                <h3>Google Marketing</h3>
-                <p>Dominate search results with our Google Ads and SEO expertise</p>
-                <a href="services.html" class="service-link">Learn More →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">
-                    <i class="fab fa-facebook"></i>
-                </div>
-                <h3>Facebook & Instagram</h3>
-                <p>Build your brand presence on social media with targeted campaigns</p>
-                <a href="services.html" class="service-link">Learn More →</a>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">
-                    <i class="fas fa-phone-alt"></i>
-                </div>
-                <h3>Pay Per Call</h3>
-                <p>Get direct calls from interested customers, pay only for results</p>
-                <a href="services.html" class="service-link">Learn More →</a>
-            </div>
-        </div>
-    </section>
+<!-- HERO -->
+<section class="hero">
+    <h1>Get More Leads & Grow Your Business Faster</h1>
+    <p>Performance-driven digital marketing for USA, Canada & Europe businesses</p>
 
-    <!-- Why Choose Us Section -->
-    <section class="why-choose-us">
-        <div class="section-header">
-            <h2>Why Choose RML Infosolutions?</h2>
-            <p>Excellence in Every Campaign</p>
-        </div>
-        <div class="features-grid">
-            <div class="feature-item">
-                <div class="feature-icon">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <h3>Data-Driven Results</h3>
-                <p>Every strategy is backed by data analytics and market research</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">
-                    <i class="fas fa-users"></i>
-                </div>
-                <h3>Expert Team</h3>
-                <p>Experienced professionals dedicated to your success</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">
-                    <i class="fas fa-cogs"></i>
-                </div>
-                <h3>Custom Solutions</h3>
-                <p>Tailored strategies for your unique business needs</p>
-            </div>
-            <div class="feature-item">
-                <div class="feature-icon">
-                    <i class="fas fa-rocket"></i>
-                </div>
-                <h3>Fast Results</h3>
-                <p>Quick implementation and measurable growth</p>
-            </div>
-        </div>
-    </section>
+    <a href="contact.html" class="btn btn-primary">Get Free Consultation</a>
+    <a href="services.html" class="btn btn-secondary">View Services</a>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="cta-content">
-            <h2>Ready to Transform Your Business?</h2>
-            <p>Let's discuss how we can help you achieve your digital marketing goals</p>
-            <a href="contact.html" class="btn btn-light">Contact Us Today</a>
-        </div>
-    </section>
+    <p style="margin-top:10px;color:#aaa;">No commitment. Speak with an expert today.</p>
+</section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>RML Infosolutions</h3>
-                <p>Your trusted partner in digital marketing excellence</p>
-                <div class="social-links">
-                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="institute.html">Institute</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="services.html">Lead Generation</a></li>
-                    <li><a href="services.html">Google Marketing</a></li>
-                    <li><a href="services.html">Social Media</a></li>
-                    <li><a href="services.html">Pay Per Call</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Contact Info</h4>
-                <p><i class="fas fa-map-marker-alt"></i> Jajmau, Kanpur, UP 208010, India</p>
-                <p><i class="fas fa-phone"></i> <a href="tel:+918840960525">+91 (884) 096-0525</a></p>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:info@rmlinfosolutions.com">info@rmlinfosolutions.com</a></p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-		<a href="/privacy-policy" style="color:#ccc;text-decoration:none;">Privacy Policy</a> |
-    <a href="/terms-conditions" style="color:#ccc;text-decoration:none;">Terms & Conditions</a>
-            <p>&copy; 2024 RML Infosolutions. All Rights Reserved.</p>
-        </div>
-    </footer>
+<!-- SERVICES -->
+<section class="services">
+    <h2>Our Core Services</h2>
 
-    <script src="script.js"></script>
+    <div class="card">
+        <i class="fas fa-globe"></i>
+        <h3>Lead Generation</h3>
+        <p>High-quality leads for your business</p>
+    </div>
+
+    <div class="card">
+        <i class="fab fa-google"></i>
+        <h3>Google Ads</h3>
+        <p>Drive targeted traffic & conversions</p>
+    </div>
+
+    <div class="card">
+        <i class="fab fa-facebook"></i>
+        <h3>Social Ads</h3>
+        <p>Scale your brand across platforms</p>
+    </div>
+
+    <div class="card">
+        <i class="fas fa-phone"></i>
+        <h3>Pay Per Call</h3>
+        <p>Only pay for real customer calls</p>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Ready to Scale Your Business?</h2>
+    <p>Book a free strategy call with our experts</p>
+    <a href="contact.html">Get Started Now</a>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+    <p>RML Infosolutions - Digital Marketing Agency</p>
+    <p>📍 Jajmau, Kanpur, India</p>
+    <p>📞 +91 8840960525</p>
+    <p>✉ info@rmlinfosolutions.com</p>
+
+    <p>
+        <a href="/privacy-policy">Privacy Policy</a> |
+        <a href="/terms-conditions">Terms</a>
+    </p>
+
+    <p style="font-size:12px;">
+        This site is not affiliated with Google or Facebook. Results may vary.
+    </p>
+</div>
+
+<!-- STICKY CALL -->
+<div class="sticky-call">
+    <a href="tel:+918840960525">📞 Call Now</a>
+</div>
+
 </body>
 </html>
