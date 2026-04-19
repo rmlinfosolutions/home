@@ -1,6 +1,6 @@
 # Digital Marketing Agency – RML Infosolutions
 
-**URL:** https://rmlinfosolutions.online
+**URL:** https://rmlinfosolutions.com
 
 ---
 
@@ -92,7 +92,7 @@ INDIA
 
 +91 (884) 096-0525
 
-info@rmlinfosolutions.online
+info@rmlinfosolutions.com
 
 © 2008 RML Infosolutions | All Rights Reserved
 Disclaimer Privacy Policy Terms & Conditions Return & Refund Policy
