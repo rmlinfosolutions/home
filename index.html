@@ -26,6 +26,16 @@ body {
     padding:15px 10%;
     background:#0f0f1a;
 }
+    .logo img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
 
 .logo {
     font-weight:700;
@@ -140,8 +150,17 @@ body {
 
 @media(min-width:768px){
     .sticky-call{display:none;}
+    
 }
-
+.logo img {
+  height: 42px;
+  filter: drop-shadow(0 0 8px rgba(192,132,252,0.6));
+}
+    @media(max-width:768px){
+  .logo img {
+    height: 35px;
+  }
+}
 </style>
 </head>
 
