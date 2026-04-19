@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - RML Infosolutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-rocket"></i>
+                <span>RML Infosolutions</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="institute.html" class="nav-link">Institute</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="phone-btn">
+                <a href="tel:+918840960525"><i class="fas fa-phone"></i> +91 (884) 096-0525</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>Get in Touch With Our Team</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-info">
+            <h2>Let's Connect</h2>
+            <p>Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            
+            <div class="contact-details">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Address</h3>
+                        <p>Jajmau, Kanpur<br>Uttar Pradesh 208010<br>India</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+918840960525">+91 (884) 096-0525</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@rmlinfosolutions.online">info@rmlinfosolutions.online</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-text">
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form-container">
+            <h2>Send us a Message</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Interested In *</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a Service</option>
+                        <option value="Lead Generation">Lead Generation</option>
+                        <option value="Google Marketing">Google Marketing (SEO & SEM)</option>
+                        <option value="Social Media">Facebook & Instagram Marketing</option>
+                        <option value="Native Marketing">Native Marketing</option>
+                        <option value="Pay Per Call">Pay Per Call</option>
+                        <option value="Email Marketing">Email Marketing</option>
+                        <option value="Digital Marketing Course">Digital Marketing Course</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="budget">Budget Range</label>
+                    <select id="budget" name="budget">
+                        <option value="">Select Budget</option>
+                        <option value="Below 50K">Below ₹50,000</option>
+                        <option value="50K-1L">₹50,000 - ₹1,00,000</option>
+                        <option value="1L-5L">₹1,00,000 - ₹5,00,000</option>
+                        <option value="5L+">₹5,00,000+</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to be contacted by RML Infosolutions</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Why Contact Us Section -->
+    <section class="why-contact">
+        <div class="section-header">
+            <h2>Why Contact Us?</h2>
+            <p>What You Get When You Reach Out</p>
+        </div>
+        <div class="contact-benefits">
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>Free Consultation</h3>
+                <p>Get a free 30-minute consultation with our digital marketing experts to discuss your goals</p>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h3>Custom Strategy</h3>
+                <p>Receive a customized digital marketing strategy tailored to your business needs</p>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <h3>Competitive Quote</h3>
+                <p>Get a detailed and competitive quote for our services with no hidden charges</p>
+            </div>
+            <div class="benefit-item">
+                <div class="benefit-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3>Partnership Approach</h3>
+                <p>We work as your partner, not just a vendor, to achieve your business goals</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Common Questions About Our Services</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How long does it take to see results?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Results vary depending on the service and your industry. Lead generation campaigns typically show results within 2-4 weeks. SEO takes 3-6 months for significant improvements. We provide regular reports to track progress.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is your pricing model?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>We offer flexible pricing models including fixed monthly retainers, project-based pricing, and performance-based pricing. We customize packages based on your budget and goals. Contact us for a detailed quote.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you work with small businesses?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! We work with businesses of all sizes, from startups to large enterprises. We have packages and services tailored for small businesses with limited budgets.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What industries do you specialize in?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>We have experience across various industries including e-commerce, real estate, healthcare, education, finance, and more. Our diverse experience helps us understand different market dynamics and customer behaviors.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you provide training and courses?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! We run a comprehensive Digital Marketing Institute in Kanpur offering courses from beginner to advanced levels. Visit our Institute page for more details about our courses and enrollment.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do you measure success?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>We measure success through clear KPIs and metrics defined at the beginning of every project. This includes leads generated, conversion rates, ROI, traffic increase, and other relevant metrics. We provide monthly reports with detailed analytics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Transform Your Digital Presence?</h2>
+            <p>Let's start your digital marketing journey today</p>
+            <a href="#contactForm" class="btn btn-light">Contact Us Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>RML Infosolutions</h3>
+                <p>Your trusted partner in digital marketing excellence</p>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="institute.html">Institute</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html">Lead Generation</a></li>
+                    <li><a href="services.html">Google Marketing</a></li>
+                    <li><a href="services.html">Social Media</a></li>
+                    <li><a href="services.html">Pay Per Call</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Jajmau, Kanpur, UP 208010, India</p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+918840960525">+91 (884) 096-0525</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@rmlinfosolutions.online">info@rmlinfosolutions.online</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 RML Infosolutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
